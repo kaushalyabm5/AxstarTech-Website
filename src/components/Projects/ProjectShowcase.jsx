@@ -223,7 +223,7 @@ const ProjectShowcase = () => {
       <div className="relative aspect-video w-full rounded-sm overflow-hidden bg-[#111] ring-1 ring-white/5 group-hover:ring-white/20 transition-all duration-500">
         <img
           src={project.image}
-          alt={project.title}
+          alt={`${project.title} software solution built by Axstar web app development in Colombo`} loading="lazy"
           className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out"
         />
         

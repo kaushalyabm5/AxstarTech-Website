@@ -49,7 +49,7 @@ const BusinessSection4 = () => {
           >
             <img 
               src={businessImg4} 
-              alt="Data Visualization"
+              alt="Data visualization dashboards for Axstar web app development clients in Colombo Sri Lanka" loading="lazy"
               className="w-full h-full object-cover opacity-50 grayscale-0 group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />

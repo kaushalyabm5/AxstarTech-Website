@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="flex-1">
             <div className="mb-6">
               <Link to="/">
-                <img src={logo} className="w-[14rem]" alt="Logo" />
+                <img src={logo} className="w-[14rem]" alt="Axstar agency logo representing custom MVP and app development in Colombo Sri Lanka" loading="lazy" />
               </Link>
               
             </div>

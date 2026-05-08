@@ -24,7 +24,7 @@ const Section3 = () => {
               
               <img
                 src={appimg1}
-                alt="App Interface"
+                alt="Modern mobile interface design created by Axstar mobile app development in Colombo Sri Lanka" loading="lazy"
                 className="relative opacity-65 w-full max-w-lg h-auto object-contain rounded-[2rem] border border-white/10 shadow-2xl transition-transform duration-500 hover:scale-[1.02]"
               />
             </div>

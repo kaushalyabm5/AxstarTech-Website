@@ -85,7 +85,7 @@ const EcomSection4 = () => {
                     <div className="relative flex items-center justify-center w-10 h-10 rounded-lg bg-white/[0.03] border border-white/5 group-hover/item:border-white/20 transition-all duration-300">
                       <img 
                         src={`https://cdn.simpleicons.org/${tech.slug}/${tech.color.replace('#', '')}`}
-                        alt={tech.name}
+                        alt={`${tech.name} technology logo used in Axstar web app development in Colombo`} loading="lazy"
                         className="w-5 h-5 filter grayscale-0 group-hover/item:grayscale-0 transition-all duration-500"
                       />
                     </div>

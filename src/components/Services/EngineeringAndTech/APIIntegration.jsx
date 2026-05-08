@@ -36,7 +36,7 @@ const APIIntegration = () => {
             <div className="relative h-full w-full overflow-hidden rounded-2xl border border-white/10">
               <img 
                 src={e7} 
-                alt="Cloud Server and API Connectivity"
+                alt="Cloud server and API connectivity diagram by the Axstar web app development team in Colombo" loading="lazy"
                 className="object-cover opacity-60 w-full h-full grayscale-0 group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>

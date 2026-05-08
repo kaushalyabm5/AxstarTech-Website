@@ -99,7 +99,7 @@ const Contact = () => {
           {/* RIGHT IMAGE */}
           <div className="flex flex-col justify-start lg:justify-end">
             <h1 className="h-animate text-[2.8rem] sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-widest">
-                        <img src={logo} className="w-[15rem] lg:w-[25rem]"/>
+                        <img src={logo} className="w-[15rem] lg:w-[25rem]" alt="Axstar tech agency logo representing web app development in Colombo Sri Lanka" loading="lazy"/>
                       </h1>
           
           <p className="text-[var(--primary-color)]/50 text-[.68rem] mt-2"> © 2026 AXSTAR All Rights Reserved.</p>

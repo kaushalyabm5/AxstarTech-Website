@@ -36,7 +36,7 @@ const ProductMVP = () => {
             <div className="relative h-full w-full overflow-hidden rounded-2xl border border-white/10">
               <img 
                 src={e3} 
-                alt="Product Design and Strategy"
+                alt="Product design and strategy planning session at the Axstar MVP development agency in Colombo" loading="lazy"
                 className="object-cover w-full h-full opacity-60 grayscale-0 group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>

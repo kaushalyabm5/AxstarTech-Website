@@ -89,7 +89,7 @@ const EcommerceSolutions = () => {
             <div className="relative h-full w-full overflow-hidden rounded-2xl border border-white/10">
               <img 
                 src={e8} 
-                alt="Modern E-commerce Interface"
+                alt="Modern e-commerce interface designed by the Axstar web app development agency in Sri Lanka" loading="lazy"
                 className="object-cover opacity-60 w-full h-full grayscale-0 group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>

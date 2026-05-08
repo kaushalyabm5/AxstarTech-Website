@@ -57,7 +57,7 @@ const About = () => {
             <div className="relative rounded-2xl overflow-hidden bg-[#000000] grayscale-0 hover:grayscale-0 transition-all duration-1000 ease-in-out">
               <img
                 src={aboutImg}
-                alt="Axstar Workspace"
+                alt="Interior view of the Axstar MVP and app development agency workspace in Sri Lanka" loading="lazy"
                 className="w-full h-full object-cover aspect-video md:aspect-[4/3]"
               />
               

@@ -69,7 +69,7 @@ const WhyChoose = () => {
               <div className="w-full h-full rounded-[1.5rem] overflow-hidden bg-neutral-800">
                 <img 
                   src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2070" 
-                  alt="Axstar Advanced Tech" 
+                  alt="Advanced technology stack graphic for Axstar mobile app development services in Colombo" loading="lazy" 
                   className="w-full h-full object-cover grayscale opacity-60 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
                 />
               </div>

@@ -54,7 +54,7 @@ const CultureSection = () => {
               <div className="absolute inset-0 border border-neutral-800 translate-x-3 translate-y-3 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500"></div>
               <img 
                 src={aboutPageImg2}
-                alt="Axstar culture visual" 
+                alt="The Axstar software engineering team collaborating on a web app in their Colombo office" loading="lazy" 
                 className="w-full h-full opacity-70 object-cover relative z-10"
               />
             </div>

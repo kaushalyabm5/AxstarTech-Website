@@ -62,7 +62,7 @@ const ProjectDetails = () => {
               index === currentIndex ? "opacity-30" : "opacity-0"
             }`}
           >
-            <img src={img} alt="blur bg" className="w-full h-full object-cover blur-3xl scale-110" />
+            <img src={img} alt="Abstract blurred background graphic for Axstar custom software development in Sri Lanka" className="w-full h-full object-cover blur-3xl scale-110" />
           </div>
         ))}
 
@@ -72,7 +72,7 @@ const ProjectDetails = () => {
             <img
               key={index}
               src={img}
-              alt={`${project.title} - ${index}`}
+              alt={`${project.title} screenshot for Axstar web and mobile app development in Colombo`}
               className={`absolute max-w-full max-h-full object-contain transition-all duration-700 ease-out transform ${
                 index === currentIndex 
                   ? "opacity-100 translate-y-0 scale-100 shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)]" 
@@ -206,7 +206,7 @@ const ProjectDetails = () => {
                 
                 <div className="flex items-center gap-5 p-5 rounded-2xl bg-black/40 border border-white/5">
                   <div className="relative">
-                    <img src={project.clientImg} alt="client" className="w-12 h-12 rounded-full grayscale" />
+                    <img src={project.clientImg} alt={`Client profile for ${project.clientName} partnering with Axstar app development in Colombo`} loading="lazy" className="w-12 h-12 rounded-full grayscale" />
                     <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-gradient-to-r from-[var(--primary-color)] via-[#02b96d] to-[#186d60] rounded-full border-2 border-black"></div>
                   </div>
                   <div>
