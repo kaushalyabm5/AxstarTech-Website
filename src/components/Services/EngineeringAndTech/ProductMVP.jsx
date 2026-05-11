@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Target, PenTool, Box, GitBranch, MessageSquare, Zap, ArrowRight } from 'lucide-react';
 
 import e3 from "../../../assets/e3-1.png";
@@ -16,6 +17,13 @@ const ProductMVP = () => {
 
   return (
     <section id='product-mvp' className="bg-[#000000] py-20 px-6 md:py-32 text-slate-300">
+      <Helmet>
+        <title>Rapid MVP Development in Sri Lanka | Axstar</title>
+        <meta name="description" content="Need to validate your startup idea quickly? Build a scalable, AI-powered MVP in weeks with Axstar’s expert software engineers in Sri Lanka." />
+        <meta property="og:image" content="/axstartechog.png" />
+        <meta property="og:title" content="Rapid MVP Development in Sri Lanka | Axstar" />
+        <meta property="og:description" content="Need to validate your startup idea quickly? Build a scalable, AI-powered MVP in weeks with Axstar’s expert software engineers in Sri Lanka." />
+      </Helmet>
       <div className="max-w-6xl mx-auto">
         
         {/* Title Section */}

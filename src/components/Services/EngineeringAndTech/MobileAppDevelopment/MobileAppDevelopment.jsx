@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 
 import MobileApDevHero from "./MobileApDevHero";
 import AfterHero from "./AfterHero";
@@ -25,6 +26,13 @@ const MobileAppDevelopment = () => {
   
   return (
     <section id="about-hero" className="relative w-full bg-black text-white overflow-hidden">
+      <Helmet>
+        <title>AI-Powered Mobile App Development in Sri Lanka | Axstar</title>
+        <meta name="description" content="Axstar builds scalable Flutter, iOS, and Android mobile apps. We deliver AI-powered, cross-platform experiences with intuitive UI/UX for global businesses." />
+        <meta property="og:image" content="/axstartechog.png" />
+        <meta property="og:title" content="AI-Powered Mobile App Development in Sri Lanka | Axstar" />
+        <meta property="og:description" content="Axstar builds scalable Flutter, iOS, and Android mobile apps. We deliver AI-powered, cross-platform experiences with intuitive UI/UX for global businesses." />
+      </Helmet>
 
 
      <MobileApDevHero />

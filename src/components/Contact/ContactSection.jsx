@@ -23,7 +23,7 @@ const ContactSection = () => {
               </h2>
 
               <p className="bg-clip-text text-transparent bg-gradient-to-r from-[var(--primary-color)] via-[#02b96d] to-[#186d60] text-base md:text-lg leading-relaxed max-w-md">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore enim aliquid debitis facilis fugiat, sit atque sed hic autem eaque.
+               At Axstar, we value strong client relationships and believe clear communication is the foundation of every successful project. Reach out to Axstar for inquiries, project discussions, quotations, technical support, or partnership opportunities. Our team is always ready to provide innovative, reliable, and professional digital solutions tailored to your business needs
               </p>
 
               <div className="pt-8 space-y-4">
@@ -31,13 +31,13 @@ const ContactSection = () => {
                   <div className="w-10 h-10 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center group-hover:border-[var(--primary-color)] transition-colors">
                     <span className="text-[var(--primary-color)]">@</span>
                   </div>
-                  <span className="text-white font-medium">info@email.com</span>
+                  <span className="text-white font-medium">Info@axstartech.com</span>
                 </div>
                 <div className="flex items-center gap-4 group">
                   <div className="w-10 h-10 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center group-hover:border-[var(--primary-color)] transition-colors">
                     <span className="text-[var(--primary-color)]">#</span>
                   </div>
-                  <span className="text-white font-medium">+94 77 123 456</span>
+                  <span className="text-white font-medium">+94 71 119 1251</span>
                 </div>
               </div>
             </div>

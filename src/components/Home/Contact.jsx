@@ -47,7 +47,7 @@ const Contact = () => {
             </h1>
 
             <div className="space-y-4 text-gray-400 text-sm sm:text-base max-w-md">
-              <p className="text-[var(--primary-color)]">axstar@email.me</p>
+              <p className="text-[var(--primary-color)]">Info@axstartech.com</p>
 
               <p className="leading-relaxed text-neutral-400">
                Reach out to discuss your project, and let us create a website that drives results and grows your business.

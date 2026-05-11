@@ -39,9 +39,15 @@ const Footer = () => {
                 Main
               </h3>
               <ul className="space-y-3 text-sm">
-                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">Works</li>
-                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">Services</li>
-                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">About</li>
+                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">
+                  <Link to="/projects">Works</Link>
+                </li>
+                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">
+                  <Link to="/engineering&technology">Services</Link>
+                </li>
+                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">
+                  <Link to="/about">About</Link>
+                </li>
                 <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">Pricing</li>
               </ul>
             </div>
@@ -52,10 +58,14 @@ const Footer = () => {
                 Support
               </h3>
               <ul className="space-y-3 text-sm">
-                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">Contact Us</li>
+                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">
+                  <Link to="/contact">Contact Us</Link>
+                </li>
+                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">
+                   <Link to="/careers">Careers</Link>
+                </li>
                 <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">Terms & Condition</li>
                 <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">Privacy Policy</li>
-                <li className="hover:text-[var(--primary-color)] cursor-pointer transition-all duration-300">Disclosures</li>
               </ul>
             </div>
 
@@ -65,11 +75,21 @@ const Footer = () => {
                 Follow Us On
               </h3>
               <div className="flex flex-wrap gap-5">
-                <FaFacebook size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
-                <FaInstagram size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
-                <FaWhatsapp size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
-                <FaLinkedin size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
-                <FaXTwitter size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
+                <a href="https://web.facebook.com/profile.php?id=61587551161680" target="_blank" rel="noopener noreferrer">
+                  <FaFacebook size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
+                </a>
+                <a href="https://www.instagram.com/axstartech/" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
+                </a>
+                <a href="https://wa.me/94711191251" target="_blank" rel="noopener noreferrer">
+                  <FaWhatsapp size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
+                </a>
+                <a href="https://www.linkedin.com/company/axstartech" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
+                </a>
+                <a href="https://x.com/Axstartech?s=20" target="_blank" rel="noopener noreferrer">
+                  <FaXTwitter size={20} className="text-[var(--primary-color)] hover:text-white cursor-pointer transition-transform hover:-translate-y-1" />
+                </a>
               </div>
             </div>
 

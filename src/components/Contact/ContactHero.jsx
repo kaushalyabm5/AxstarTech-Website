@@ -122,7 +122,7 @@ const ContactHero = () => {
         </h1>
 
         <p className="max-w-2xl text-slate-400 text-lg md:text-xl leading-relaxed mb-10">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, consequatur? Voluptatem qui commodi architecto itaque facere dolorum minus, molestias nesciunt animi consectetur vero ducimus odit voluptas expedita dolores facilis sit.
+          Ready to transform your vision into a digital reality? Reach out to us today and let's start building the future of your business with our AI-powered solutions.
         </p>
  <a href="#contact-form">
                       <button className="cursor-pointer font-medium px-10 py-3 text-sm rounded-lg 
