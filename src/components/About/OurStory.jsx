@@ -56,7 +56,7 @@ const OurStory = () => {
               <motion.img
                 style={{ y: imageY, scale: imageScale }}
                 src={aboutPageImg3}
-                alt="Studio"
+                alt="The modern studio workspace of Axstar app development agency in Colombo Sri Lanka" loading="lazy"
                 className="w-full h-full object-cover opacity-80 grayscale-0 hover:grayscale-0 transition-all duration-1000"
               />
             </div>

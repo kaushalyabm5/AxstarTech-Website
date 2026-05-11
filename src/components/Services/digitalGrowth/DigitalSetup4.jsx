@@ -89,7 +89,7 @@ const DigitalSetup4 = () => {
                 whileHover={{ scale: 1.08 }}
                 transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                 src={digitalImg3}
-                alt="Digital Strategy Visual"
+                alt="Digital strategy workflow diagram for Axstar MVP development in Colombo Sri Lanka" loading="lazy"
                 className="absolute inset-0 w-full h-full object-cover transition-all duration-1000"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#080808]/60 to-transparent pointer-events-none" />

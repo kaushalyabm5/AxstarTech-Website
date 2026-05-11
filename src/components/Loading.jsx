@@ -45,7 +45,7 @@ const Loading = ({ duration = 2000, onFinish }) => {
       }`}
     >
       {/* Logo */}
-      <img src={logo} alt="Logo" className="w-32 h-auto mb-6 relative z-10" />
+      <img src={logo} alt="Axstar tech agency logo loading screen for app development services in Colombo" className="w-32 h-auto mb-6 relative z-10" />
 
       {/* Premium spinner */}
       <div className="relative w-16 h-16">

@@ -89,7 +89,7 @@ const MobileDev = () => {
             <div className="relative h-full w-full overflow-hidden rounded-2xl border border-white/10">
               <img 
                 src={e2}
-                alt="Mobile Interface Design"
+                alt="Modern mobile interface design created by Axstar mobile app development in Colombo Sri Lanka" loading="lazy"
                 className="object-cover w-full h-full opacity-60 grayscale-0 group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>

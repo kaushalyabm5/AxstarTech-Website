@@ -72,7 +72,7 @@ const UIUXDesign = () => {
             <div className="relative h-full w-full overflow-hidden rounded-2xl border border-white/10">
               <img 
                 src={e4} 
-                alt="UI/UX Workspace and Figma Design"
+                alt="UI and UX workspace showing Figma designs for Axstar mobile app development in Colombo" loading="lazy"
                 className="object-cover w-full h-full opacity-60 grayscale-0 group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>

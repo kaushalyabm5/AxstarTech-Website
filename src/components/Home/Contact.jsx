@@ -47,7 +47,7 @@ const Contact = () => {
             </h1>
 
             <div className="space-y-4 text-gray-400 text-sm sm:text-base max-w-md">
-              <p className="text-[var(--primary-color)]">axstar@email.me</p>
+              <p className="text-[var(--primary-color)]">Info@axstartech.com</p>
 
               <p className="leading-relaxed text-neutral-400">
                Reach out to discuss your project, and let us create a website that drives results and grows your business.
@@ -99,7 +99,7 @@ const Contact = () => {
           {/* RIGHT IMAGE */}
           <div className="flex flex-col justify-start lg:justify-end">
             <h1 className="h-animate text-[2.8rem] sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-widest">
-                        <img src={logo} className="w-[15rem] lg:w-[25rem]"/>
+                        <img src={logo} className="w-[15rem] lg:w-[25rem]" alt="Axstar tech agency logo representing web app development in Colombo Sri Lanka" loading="lazy"/>
                       </h1>
           
           <p className="text-[var(--primary-color)]/50 text-[.68rem] mt-2"> © 2026 AXSTAR All Rights Reserved.</p>

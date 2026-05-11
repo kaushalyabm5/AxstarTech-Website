@@ -194,7 +194,7 @@ const Testimonials = () => {
   <div className="w-[52px] h-[52px] md:w-[68px] md:h-[68px] lg:w-[76px] lg:h-[76px] flex-shrink-0">
     <img
       src={item.image}
-      alt={item.name}
+      alt={`${item.name} sharing a testimonial about Axstar web app development in Colombo Sri Lanka`}
       className="w-full h-full object-cover rounded-full border border-white/10"
       loading="lazy"
     />

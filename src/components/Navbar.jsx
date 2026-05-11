@@ -138,7 +138,7 @@ export default function Navbar() {
       {/* ================= MOBILE NAVBAR ================= */}
       <nav className="lg:hidden fixed top-2 left-1/2 -translate-x-1/2 w-[95%] rounded-[2rem] z-50 bg-white/10 backdrop-blur-xl shadow-lg px-4 sm:px-6 py-4 flex justify-between items-center">
         <Link to="/" onClick={handleNavClick("/", heroMap["/"])}>
-          <img src={logo} className="w-[3.5rem] sm:w-[4rem]" />
+          <img src={logo} className="w-[3.5rem] sm:w-[4rem]" alt="Axstar tech agency logo for mobile and web app development in Colombo" />
         </Link>
 
         <button onClick={() => setMobileMenu(!mobileMenu)} className="text-[#e9e7e2] text-2xl">
@@ -272,7 +272,7 @@ export default function Navbar() {
         }`}
       >
         <Link to="/" onClick={handleNavClick("/", heroMap["/"])}>
-          <img src={logo} className="w-[4rem] xl:w-[5rem]" />
+          <img src={logo} className="w-[4rem] xl:w-[5rem]" alt="Axstar tech agency logo for mobile and web app development in Colombo" />
         </Link>
 
         <ul className="flex gap-6 xl:gap-12 items-center">

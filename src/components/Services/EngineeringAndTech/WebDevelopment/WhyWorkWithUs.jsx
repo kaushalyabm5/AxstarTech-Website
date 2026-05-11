@@ -36,7 +36,7 @@ const WhyWorkWithUs = () => {
               {/* Placeholder for your image */}
               <img 
                 src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" 
-                alt="Our Process"
+                alt="Step-by-step software engineering process diagram at Axstar web app development in Colombo" loading="lazy"
                 className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#020202] via-transparent to-transparent"></div>

@@ -7,6 +7,7 @@ import AboutPage from "./components/About/AboutPage";
 /* ===== IT & Technology Services ===== */
 import WebDevelopment from "./components/Services/EngineeringAndTech/WebDevelopment/WebDevelopment";
 import MobileAppDevelopment from "./components/Services/EngineeringAndTech/MobileAppDevelopment/MobileAppDevelopment";
+import ProductMVP from "./components/Services/EngineeringAndTech/ProductMVP";
 
 
 
@@ -87,6 +88,7 @@ const AppWrapper = () => {
               <Route path="/engineering&technology" element={<EngineeringandTechPage />} />
               <Route path="/web-development" element={<WebDevelopment />} />
               <Route path="/mobile-app-development" element={<MobileAppDevelopment />} />
+              <Route path="/mvp-development" element={<ProductMVP />} />
               <Route path="/ai-driven-solutions" element={<AiDrivenSolutions />} />
               <Route path="/e-commerce-platforms&solutions" element={<EcommercePage />} />
              

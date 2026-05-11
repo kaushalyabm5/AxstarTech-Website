@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Target, PenTool, Box, GitBranch, MessageSquare, Zap, ArrowRight } from 'lucide-react';
 
 import e3 from "../../../assets/e3-1.png";
@@ -16,6 +17,13 @@ const ProductMVP = () => {
 
   return (
     <section id='product-mvp' className="bg-[#000000] py-20 px-6 md:py-32 text-slate-300">
+      <Helmet>
+        <title>Rapid MVP Development in Sri Lanka | Axstar</title>
+        <meta name="description" content="Need to validate your startup idea quickly? Build a scalable, AI-powered MVP in weeks with Axstar’s expert software engineers in Sri Lanka." />
+        <meta property="og:image" content="/axstartechog.png" />
+        <meta property="og:title" content="Rapid MVP Development in Sri Lanka | Axstar" />
+        <meta property="og:description" content="Need to validate your startup idea quickly? Build a scalable, AI-powered MVP in weeks with Axstar’s expert software engineers in Sri Lanka." />
+      </Helmet>
       <div className="max-w-6xl mx-auto">
         
         {/* Title Section */}
@@ -36,7 +44,7 @@ const ProductMVP = () => {
             <div className="relative h-full w-full overflow-hidden rounded-2xl border border-white/10">
               <img 
                 src={e3} 
-                alt="Product Design and Strategy"
+                alt="Product design and strategy planning session at the Axstar MVP development agency in Colombo" loading="lazy"
                 className="object-cover w-full h-full opacity-60 grayscale-0 group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>

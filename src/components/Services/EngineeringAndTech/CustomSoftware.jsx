@@ -36,7 +36,7 @@ const CustomSoftware = () => {
             <div className="relative h-full w-full overflow-hidden rounded-2xl border border-white/10">
               <img 
                 src={e5} 
-                alt="Complex System Architecture"
+                alt="Complex custom software architecture diagram by Axstar app development in Colombo" loading="lazy"
                 className="object-cover w-full opacity-60 h-full grayscale-0s group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>

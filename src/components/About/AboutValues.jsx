@@ -70,7 +70,7 @@ const AboutValues = () => {
               
               <img
                 src={AboutImg0}
-                alt="About visual"
+                alt="Core values graphic for the Axstar MVP and app development agency in Colombo Sri Lanka" loading="lazy"
                 className="w-full h-full object-cover rounded-3xl duration-700 ease-out"
               />
 

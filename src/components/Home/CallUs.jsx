@@ -13,7 +13,7 @@ const CallUs = () => {
         <div className="mb-6">
           <img
             src={logo}
-            alt="logo"
+            alt="Axstar contact section logo for custom mobile app development in Colombo" loading="lazy"
             className="w-70 md:w-90 lg:w-90 object-contain mx-auto"
           />
         </div>

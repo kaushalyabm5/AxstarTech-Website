@@ -82,7 +82,7 @@ const EcomSection2 = () => {
               <div className="aspect-[4/5] md:aspect-[16/11] bg-neutral-900 overflow-hidden relative rounded-sm shadow-2xl shadow-black/50">
                 <img 
                   src={service.image} 
-                  alt={service.title}
+                  alt={`${service.title} capabilities for Axstar web app development in Colombo Sri Lanka`} loading="lazy"
                   className="w-full h-full object-cover grayscale-0 opacity-70 transition-all duration-1000 ease-out group-hover:scale-110 group-hover:grayscale-0 group-hover:opacity-100"
                 />
                 {/* Brand Tint Overlay */}

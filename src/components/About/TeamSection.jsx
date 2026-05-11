@@ -98,7 +98,7 @@ const TeamSection = () => {
           
           <img 
             src={member.image} 
-            alt={member.name}
+            alt={`${member.name} working at the Axstar app development agency headquarters in Colombo`} loading="lazy"
             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-100 group-hover/card:scale-105"
           />
           
