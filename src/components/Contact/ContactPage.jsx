@@ -6,13 +6,13 @@ import ScrollToTopContact from './ScrollToTopContact'
 
 const axstarSchema = {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication", // Helps Google understand you are a tech company
+  "@type": "SoftwareApplication",
   "name": "Axstar",
   "alternateName": "Axstar Tech",
   "description": "AI-Powered Software, Web & Mobile App Development Company in Sri Lanka specializing in scalable SaaS and MVPs.",
   "url": "https://axstartech.com",
-  "logo": "https://axstartech.com/logo.png",
-  "image": "https://axstartech.com/logo.png",
+  "logo": "https://axstartech.com/axstar_logo.png",
+  "image": "https://axstartech.com/axstar_logo.png",
   "telephone": "+94711191251",
   "priceRange": "$$$",
   "address": {
@@ -39,27 +39,26 @@ const axstarSchema = {
   "sameAs": [
     "https://www.linkedin.com/company/axstartech",
     "https://web.facebook.com/profile.php?id=61587551161680",
-    "https://www.instagram.com/axstartech/",
-    "https://x.com/Axstartech?s=20"
+    "https://www.instagram.com/axstartech/"
   ]
 };
 
 const ContactPage = () => {
   return (
     <div>
-        <Helmet>
-            <title>Contact Axstar | AI Software & App Development in Colombo</title>
-            <meta name="description" content="Ready to build your next digital product? Contact Axstar in Colombo for a free consultation on AI solutions, web apps, mobile development, and MVP services." />
-            <meta property="og:image" content="/axstartechog.png" />
-            <meta property="og:title" content="Contact Axstar | AI Software & App Development in Colombo" />
-            <meta property="og:description" content="Ready to build your next digital product? Contact Axstar in Colombo for a free consultation on AI solutions, web apps, mobile development, and MVP services." />
-            <script type="application/ld+json">
-              {JSON.stringify(axstarSchema)}
-            </script>
-        </Helmet>
-        <ContactHero />
-        <ContactSection />
-        <ScrollToTopContact />
+      <Helmet>
+        <title>Contact Axstar | AI Software & App Development in Colombo</title>
+        <meta name="description" content="Ready to build your next digital product? Contact Axstar in Colombo for a free consultation on AI solutions, web apps, mobile development, and MVP services." />
+        <meta property="og:image" content="/axstartechog.png" />
+        <meta property="og:title" content="Contact Axstar | AI Software & App Development in Colombo" />
+        <meta property="og:description" content="Ready to build your next digital product? Contact Axstar in Colombo for a free consultation on AI solutions, web apps, mobile development, and MVP services." />
+        <script type="application/ld+json">
+          {JSON.stringify(axstarSchema)}
+        </script>
+      </Helmet>
+      <ContactHero />
+      <ContactSection />
+      <ScrollToTopContact />
     </div>
   )
 }
