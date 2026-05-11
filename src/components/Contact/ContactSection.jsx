@@ -4,10 +4,10 @@ const ContactSection = () => {
   return (
     <section id="contact-form" className="w-full bg-[#000000] py-20 px-4 sm:px-8 md:px-16 lg:px-24">
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Main Layout Grid */}
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-stretch">
-          
+
           {/* 1. Left Content: Brand & Reach (Fixed width on desktop, full on mobile) */}
           <div className="w-full lg:w-2/5 flex flex-col justify-center">
             <div className="space-y-6">
@@ -16,14 +16,14 @@ const ContactSection = () => {
                   Contact Us
                 </span>
               </div>
-              
+
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-light text-white tracking-tight leading-tight">
-                Let’s create <br className="hidden md:block" /> 
+                Let’s create <br className="hidden md:block" />
                 something epic.
               </h2>
 
               <p className="bg-clip-text text-transparent bg-gradient-to-r from-[var(--primary-color)] via-[#02b96d] to-[#186d60] text-base md:text-lg leading-relaxed max-w-md">
-               At Axstar, we value strong client relationships and believe clear communication is the foundation of every successful project. Reach out to Axstar for inquiries, project discussions, quotations, technical support, or partnership opportunities. Our team is always ready to provide innovative, reliable, and professional digital solutions tailored to your business needs
+                Have a project idea, business inquiry, or collaboration opportunity? We’d love to hear from you. Whether you're looking for AI solutions, custom software development, web & mobile applications, or digital growth services the team at Axstar is ready to help.
               </p>
 
               <div className="pt-8 space-y-4">
@@ -48,10 +48,10 @@ const ContactSection = () => {
             <div className="relative group">
               {/* Decorative Gradient Glow (Desktop Only) */}
               <div className="absolute -inset-0.5 bg-gradient-to-r from-[var(--primary-color)] via-[#02b96d] to-[#186d60] rounded-2xl blur opacity-10 group-hover:opacity-20 transition duration-1000"></div>
-              
+
               <div className="relative bg-neutral-900 border border-neutral-800 p-6 sm:p-10 rounded-2xl shadow-2xl">
                 <form className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  
+
                   {/* First Name */}
                   <div className="space-y-2">
                     <input
@@ -110,8 +110,8 @@ const ContactSection = () => {
                     >
                       Send Message
                     </button>
-                    
-                  
+
+
                   </div>
 
                 </form>
